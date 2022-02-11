@@ -12,15 +12,17 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
 * 4 Functions, including:
   * First extract & transform functions to grab url for each job listing
   * Second extract_expand & transform_expand function to grab the job title, company, job description, website, and date scraped saving information into a dicitonary.
+
   ![data1](Images/1.PNG)
   ![data1](Images/2.PNG)
   
  * For loop, including:
    * Runs all the above functions to webscrape and save information into a CSV for later use
+
    ![data1](Images/3.PNG)
 
 ## Part 2:
-### Data Analysis
+### Data Cleaning
 
 * Create an overview table of CSV, including:
   * Company
@@ -29,26 +31,18 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
   * Date Scraped
   ![data1](Images/4.PNG)
 
-### Top Performing Schools (By % Overall Passing)
+### Cleaning
 
-* Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math **and** reading.)
+* Separating and removing any unnecessary tickers from job description. Includes:
+  * "-", "/", "$", ":"
 
-![data1](Images/data3.PNG)
+![data1](Images/5.PNG)
 
-### Bottom Performing Schools (By % Overall Passing)
+### Filtering & Tokenizing
 
-* Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
-![data1](Images/data4.PNG)
+* Create a list of stop job listing stop words and uses a list comprehension to only save word tokens. Includes:
+
+![data1](Images/data6.PNG)
 
 ### Math Scores by Grade\*\*
 
