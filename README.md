@@ -40,9 +40,13 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
 
 ### Filtering & Tokenizing
 
-* Create a list of stop job listing stop words and uses a list comprehension to only save word tokens. Includes:
+* Create a list of job listing stop words and uses a list comprehension to only saving relevant word tokens. Includes:
 
-![data1](Images/data6.PNG)
+![data1](Images/6.PNG)
+
+* Create a list of resume stop words and uses a list comprehension to only saving relevant word tokens. Includes:
+
+![data1](Images/7.PNG)
 
 ### Math Scores by Grade\*\*
 
