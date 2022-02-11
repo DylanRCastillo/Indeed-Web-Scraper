@@ -11,7 +11,8 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
 * 4 Functions, including:
   * First extract & transform functions to grab url for each job listing
   * Second extract_expand & transform_expand function to grab the job title, company, job description, website, and date scraped saving information into a dicitonary.
-  ![data1](Images/data1.PNG)
+  ![data1](Images/1.PNG)
+  ![data1](Images/2.PNG)
 
 ### School Summary
 
