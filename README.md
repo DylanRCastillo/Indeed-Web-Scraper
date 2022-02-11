@@ -6,6 +6,7 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
 
 ## Objective
 
+## Part 1:
 ### Extract, Transform, and Load
 
 * 4 Functions, including:
@@ -18,20 +19,15 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
    * Runs all the above functions to webscrape and save information into a CSV for later use
    ![data1](Images/3.PNG)
 
-### School Summary
+## Part 2:
+### Data Analysis
 
-* Create an overview table that summarizes key metrics about each school, including:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math (The percentage of students that passed math.)
-  * % Passing Reading (The percentage of students that passed reading.)
-  * % Overall Passing (The percentage of students that passed math and reading.)
-  ![data1](Images/data2.PNG)
+* Create an overview table of CSV, including:
+  * Company
+  * Job Description
+  * Website
+  * Date Scraped
+  ![data1](Images/4.PNG)
 
 ### Top Performing Schools (By % Overall Passing)
 
