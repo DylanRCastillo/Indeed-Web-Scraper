@@ -13,6 +13,10 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
   * Second extract_expand & transform_expand function to grab the job title, company, job description, website, and date scraped saving information into a dicitonary.
   ![data1](Images/1.PNG)
   ![data1](Images/2.PNG)
+  
+ * For loop, including:
+   * Runs all the above functions to webscrape and save information into a CSV for later use
+   ![data1](Images/3.PNG)
 
 ### School Summary
 
