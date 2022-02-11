@@ -36,22 +36,27 @@ Using an ETL process to scrap Indeed job listing information and analyzing and v
 * Separating and removing any unnecessary tickers from job description. Includes:
   * "-", "/", "$", ":"
 
-![data1](Images/5.PNG)
+  ![data1](Images/5.PNG)
 
 ### Filtering & Tokenizing
 
 * Create a list of job listing stop words and uses a list comprehension to only saving relevant word tokens. Includes:
 
-![data1](Images/6.PNG)
+  ![data1](Images/6.PNG)
 
 * Create a list of resume stop words and uses a list comprehension to only saving relevant word tokens. Includes:
 
-![data1](Images/7.PNG)
+  ![data1](Images/7.PNG)
 
-### Math Scores by Grade\*\*
+### Saving to DataFrame
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-![data1](Images/data5.PNG)
+* Looping through words inside resume and checking if they are in job description.
+
+  ![data1](Images/8.PNG)
+
+* Looping through words inside job description and checking if they are in resume.
+
+  ![data1](Images/9.PNG)
 
 ### Reading Scores by Grade
 
